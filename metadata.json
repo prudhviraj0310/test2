@@ -1,0 +1,6 @@
+{
+  "name": "Nexus — Supernova Design OS (Campus Edition)",
+  "description": "Unified W3C DTCG Design Token Engine, Multi-Platform Compiler, Compliance Auditor, MCP Server, and Campus Workspace Platform combining nova-core-flow and supernova-india.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

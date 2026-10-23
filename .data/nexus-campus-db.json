@@ -1,0 +1,2434 @@
+{
+  "workspaces": [
+    {
+      "id": "543e0cfe-7052-4be9-8993-cafc9368334c",
+      "slug": "campus-master",
+      "name": "Campus Master Design OS",
+      "department": "Central Engineering & Design Guild",
+      "ownerName": "Prudhvi Raj (Lead Architect)",
+      "apiKey": "nxs_live_campus_master_9f8a7b6c",
+      "activeContext": "default",
+      "createdAt": "2026-10-21T18:31:53.699Z",
+      "tokens": [
+        {
+          "path": "color.primitive.navy.500",
+          "type": "color",
+          "value": "#4f6596",
+          "plain": "Muted navy 500",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.navy.700",
+          "type": "color",
+          "value": "#1e3a8a",
+          "plain": "Brand navy 700",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.navy.900",
+          "type": "color",
+          "value": "#1e2a4a",
+          "plain": "Deep navy 900",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.100",
+          "type": "color",
+          "value": "#e6edf7",
+          "plain": "Soft sky tint",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.300",
+          "type": "color",
+          "value": "#a9bcdb",
+          "plain": "Light blue 300",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.500",
+          "type": "color",
+          "value": "#3b82f6",
+          "plain": "Interactive blue 500",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.saffron.100",
+          "type": "color",
+          "value": "#ffedd5",
+          "plain": "Festive warm tint",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.saffron.500",
+          "type": "color",
+          "value": "#ea580c",
+          "plain": "Warm saffron accent",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.50",
+          "type": "color",
+          "value": "#f4f6f9",
+          "plain": "Page canvas light",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.200",
+          "type": "color",
+          "value": "#dde3ec",
+          "plain": "Subtle border slate",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.600",
+          "type": "color",
+          "value": "#5b6577",
+          "plain": "Muted body slate",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.900",
+          "type": "color",
+          "value": "#0f172a",
+          "plain": "Main ink dark",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.green.500",
+          "type": "color",
+          "value": "#16a34a",
+          "plain": "Success green (UPI verified)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.amber.500",
+          "type": "color",
+          "value": "#d97706",
+          "plain": "Warning amber (Pending KYC)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.red.500",
+          "type": "color",
+          "value": "#dc2626",
+          "plain": "Danger red (Payment failed)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.pink.400",
+          "type": "color",
+          "value": "#f472b6",
+          "plain": "Old pink (retiring)",
+          "deprecated": true
+        },
+        {
+          "path": "color.semantic.background",
+          "type": "color",
+          "value": "{color.primitive.slate.50}",
+          "description": "App canvas background",
+          "plain": "Page background",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.surface",
+          "type": "color",
+          "value": "#ffffff",
+          "description": "Cards, modals and sheets",
+          "plain": "Card surface",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.text",
+          "type": "color",
+          "value": "{color.primitive.slate.900}",
+          "description": "Primary readable body copy",
+          "plain": "Main text",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.text-muted",
+          "type": "color",
+          "value": "{color.primitive.slate.600}",
+          "description": "Secondary helper labels",
+          "plain": "Muted text",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.primary",
+          "type": "color",
+          "value": "{color.primitive.navy.700}",
+          "description": "Primary actions & UPI Pay buttons",
+          "plain": "Main brand colour",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.accent",
+          "type": "color",
+          "value": "{color.primitive.saffron.500}",
+          "description": "Festive highlights & callouts",
+          "plain": "Warm accent",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.success",
+          "type": "color",
+          "value": "{color.primitive.green.500}",
+          "description": "Confirmation & instant settlement",
+          "plain": "Success green",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.warning",
+          "type": "color",
+          "value": "{color.primitive.amber.500}",
+          "description": "Caution & pending verification",
+          "plain": "Warning amber",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.danger",
+          "type": "color",
+          "value": "{color.primitive.red.500}",
+          "description": "Destructive actions & low-balance alerts",
+          "plain": "Error red",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.xs",
+          "type": "dimension",
+          "value": "4px",
+          "plain": "Tight gap (4px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.sm",
+          "type": "dimension",
+          "value": "8px",
+          "plain": "Small gap (8px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.md",
+          "type": "dimension",
+          "value": "16px",
+          "plain": "Normal gap (16px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.lg",
+          "type": "dimension",
+          "value": "24px",
+          "plain": "Large gap (24px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.xl",
+          "type": "dimension",
+          "value": "40px",
+          "plain": "Section gap (40px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.sm",
+          "type": "dimension",
+          "value": "8px",
+          "plain": "Soft corner (8px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.md",
+          "type": "dimension",
+          "value": "14px",
+          "plain": "Input corner (14px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.lg",
+          "type": "dimension",
+          "value": "22px",
+          "plain": "Card corner (22px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.pill",
+          "type": "dimension",
+          "value": "999px",
+          "plain": "Pill button (999px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.family.sans",
+          "type": "fontFamily",
+          "value": "Manrope, sans-serif",
+          "plain": "Display & UI sans",
+          "deprecated": false
+        },
+        {
+          "path": "font.family.mono",
+          "type": "fontFamily",
+          "value": "JetBrains Mono, monospace",
+          "plain": "Token & code mono",
+          "deprecated": false
+        },
+        {
+          "path": "font.size.body",
+          "type": "dimension",
+          "value": "15px",
+          "plain": "Body text (15px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.size.heading",
+          "type": "dimension",
+          "value": "28px",
+          "plain": "Page title (28px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.weight.regular",
+          "type": "fontWeight",
+          "value": "400",
+          "plain": "Regular weight",
+          "deprecated": false
+        },
+        {
+          "path": "font.weight.semibold",
+          "type": "fontWeight",
+          "value": "600",
+          "plain": "Semibold weight",
+          "deprecated": false
+        },
+        {
+          "path": "motion.fast",
+          "type": "duration",
+          "value": "120ms",
+          "plain": "Micro feedback (120ms)",
+          "deprecated": false
+        },
+        {
+          "path": "motion.base",
+          "type": "duration",
+          "value": "220ms",
+          "plain": "Standard transition (220ms)",
+          "deprecated": false
+        }
+      ],
+      "contexts": [
+        {
+          "id": "default",
+          "name": "Default Light (India Standard)",
+          "description": "High-contrast daylight theme tuned for outdoor readability and UPI flows.",
+          "badge": "Base",
+          "overrides": {}
+        },
+        {
+          "id": "dark",
+          "name": "AMOLED Dark Mode (Power Saver)",
+          "description": "Battery-saving dark surfaces designed for Indian summers and low-light usage.",
+          "badge": "Theme",
+          "overrides": {
+            "color.semantic.background": "#0b0f19",
+            "color.semantic.surface": "#131b2e",
+            "color.semantic.text": "#f8fafc",
+            "color.semantic.text-muted": "#94a3b8",
+            "color.semantic.primary": "{color.primitive.blue.500}"
+          }
+        },
+        {
+          "id": "diwali",
+          "name": "Diwali Festive Edition",
+          "description": "One-line context switch replacing primary actions with festive saffron & warm ivory.",
+          "badge": "Seasonal",
+          "overrides": {
+            "color.semantic.background": "#fffaf5",
+            "color.semantic.surface": "#ffffff",
+            "color.semantic.primary": "{color.primitive.saffron.500}",
+            "color.semantic.accent": "{color.primitive.navy.700}"
+          }
+        },
+        {
+          "id": "bhasha",
+          "name": "Multilingual / Indic Tall Script",
+          "description": "Expanded type scale & spacing for Devanagari, Tamil, and Telugu script rendering.",
+          "badge": "Indic",
+          "overrides": {
+            "font.size.body": "17px",
+            "font.size.heading": "30px",
+            "spacing.md": "18px",
+            "spacing.lg": "28px"
+          }
+        }
+      ],
+      "components": [
+        {
+          "id": "button",
+          "name": "Button (UPI Pay Action)",
+          "status": "stable",
+          "version": "2.4.0",
+          "a11y": "AA · 44px touch target",
+          "description": "Primary and secondary actions used for checkout, UPI confirmation, and form submits.",
+          "tokens": [
+            "color.semantic.primary",
+            "color.semantic.surface",
+            "radius.pill",
+            "spacing.md"
+          ],
+          "codeSnippet": "<button className=\"bg-[var(--color-semantic-primary)] text-white rounded-[var(--radius-pill)] px-[var(--spacing-lg)] py-[var(--spacing-sm)] font-semibold\">Pay ₹250</button>"
+        },
+        {
+          "id": "card",
+          "name": "Card (Order & Balance Tile)",
+          "status": "stable",
+          "version": "2.1.0",
+          "a11y": "AA · Semantic region",
+          "description": "Surface container for grouped content, transaction summaries, and student project metrics.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.semantic.text",
+            "radius.lg",
+            "spacing.lg"
+          ],
+          "codeSnippet": "<section className=\"bg-[var(--color-semantic-surface)] text-[var(--color-semantic-text)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)] border\">...</section>"
+        },
+        {
+          "id": "badge",
+          "name": "Status Badge",
+          "status": "stable",
+          "version": "1.3.0",
+          "a11y": "AA · Text + Icon",
+          "description": "Compact status indicator paired with explicit text labels for color-blind safety.",
+          "tokens": [
+            "color.semantic.success",
+            "radius.pill",
+            "spacing.xs"
+          ],
+          "codeSnippet": "<span className=\"text-[var(--color-semantic-success)] px-[var(--spacing-sm)] py-[var(--spacing-xs)] text-xs font-semibold\">Verified · Instant</span>"
+        },
+        {
+          "id": "input",
+          "name": "Input (+91 Phone & VPA)",
+          "status": "stable",
+          "version": "2.0.0",
+          "a11y": "AA · Label bound",
+          "description": "Single-line text field with clear focus ring, prefix support (+91), and validation state.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.primitive.slate.200",
+            "radius.md",
+            "spacing.sm"
+          ],
+          "codeSnippet": "<input className=\"bg-[var(--color-semantic-surface)] rounded-[var(--radius-md)] px-[var(--spacing-md)] py-[var(--spacing-sm)] border\" placeholder=\"+91 98765 43210\" />"
+        },
+        {
+          "id": "alert",
+          "name": "Banner / Low-Balance Alert",
+          "status": "stable",
+          "version": "1.4.0",
+          "a11y": "AA · role=alert",
+          "description": "Contextual feedback message for warnings, KYC reminders, or payment confirmation.",
+          "tokens": [
+            "color.semantic.warning",
+            "color.semantic.surface",
+            "radius.md",
+            "spacing.md"
+          ],
+          "codeSnippet": "<div role=\"alert\" className=\"rounded-[var(--radius-md)] p-[var(--spacing-md)] border\">Low balance — add ₹500 to continue.</div>"
+        },
+        {
+          "id": "modal",
+          "name": "Confirmation Dialog",
+          "status": "beta",
+          "version": "0.9.0",
+          "a11y": "Focus trap · Esc closes",
+          "description": "Accessible modal sheet for approving token releases, Figma sync diffs, or high-value actions.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.semantic.primary",
+            "radius.lg",
+            "spacing.lg"
+          ],
+          "codeSnippet": "<dialog className=\"bg-[var(--color-semantic-surface)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)]\">...</dialog>"
+        }
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-22T06:31:53.698Z",
+          "author": "Prudhvi Raj (Lead Architect)",
+          "note": "Initial W3C DTCG foundation & Indian product semantic tokens",
+          "tokenCount": 42,
+          "changes": {
+            "added": 42,
+            "changed": 0,
+            "removed": 0
+          },
+          "snapshot": [
+            {
+              "path": "color.primitive.navy.500",
+              "type": "color",
+              "value": "#4f6596",
+              "plain": "Muted navy 500",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.navy.700",
+              "type": "color",
+              "value": "#1e3a8a",
+              "plain": "Brand navy 700",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.navy.900",
+              "type": "color",
+              "value": "#1e2a4a",
+              "plain": "Deep navy 900",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.100",
+              "type": "color",
+              "value": "#e6edf7",
+              "plain": "Soft sky tint",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.300",
+              "type": "color",
+              "value": "#a9bcdb",
+              "plain": "Light blue 300",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.500",
+              "type": "color",
+              "value": "#3b82f6",
+              "plain": "Interactive blue 500",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.saffron.100",
+              "type": "color",
+              "value": "#ffedd5",
+              "plain": "Festive warm tint",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.saffron.500",
+              "type": "color",
+              "value": "#ea580c",
+              "plain": "Warm saffron accent",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.50",
+              "type": "color",
+              "value": "#f4f6f9",
+              "plain": "Page canvas light",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.200",
+              "type": "color",
+              "value": "#dde3ec",
+              "plain": "Subtle border slate",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.600",
+              "type": "color",
+              "value": "#5b6577",
+              "plain": "Muted body slate",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.900",
+              "type": "color",
+              "value": "#0f172a",
+              "plain": "Main ink dark",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.green.500",
+              "type": "color",
+              "value": "#16a34a",
+              "plain": "Success green (UPI verified)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.amber.500",
+              "type": "color",
+              "value": "#d97706",
+              "plain": "Warning amber (Pending KYC)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.red.500",
+              "type": "color",
+              "value": "#dc2626",
+              "plain": "Danger red (Payment failed)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.pink.400",
+              "type": "color",
+              "value": "#f472b6",
+              "plain": "Old pink (retiring)",
+              "deprecated": true
+            },
+            {
+              "path": "color.semantic.background",
+              "type": "color",
+              "value": "{color.primitive.slate.50}",
+              "description": "App canvas background",
+              "plain": "Page background",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.surface",
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Cards, modals and sheets",
+              "plain": "Card surface",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.text",
+              "type": "color",
+              "value": "{color.primitive.slate.900}",
+              "description": "Primary readable body copy",
+              "plain": "Main text",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.text-muted",
+              "type": "color",
+              "value": "{color.primitive.slate.600}",
+              "description": "Secondary helper labels",
+              "plain": "Muted text",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.primary",
+              "type": "color",
+              "value": "{color.primitive.navy.700}",
+              "description": "Primary actions & UPI Pay buttons",
+              "plain": "Main brand colour",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.accent",
+              "type": "color",
+              "value": "{color.primitive.saffron.500}",
+              "description": "Festive highlights & callouts",
+              "plain": "Warm accent",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.success",
+              "type": "color",
+              "value": "{color.primitive.green.500}",
+              "description": "Confirmation & instant settlement",
+              "plain": "Success green",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.warning",
+              "type": "color",
+              "value": "{color.primitive.amber.500}",
+              "description": "Caution & pending verification",
+              "plain": "Warning amber",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.danger",
+              "type": "color",
+              "value": "{color.primitive.red.500}",
+              "description": "Destructive actions & low-balance alerts",
+              "plain": "Error red",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.xs",
+              "type": "dimension",
+              "value": "4px",
+              "plain": "Tight gap (4px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.sm",
+              "type": "dimension",
+              "value": "8px",
+              "plain": "Small gap (8px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.md",
+              "type": "dimension",
+              "value": "16px",
+              "plain": "Normal gap (16px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.lg",
+              "type": "dimension",
+              "value": "24px",
+              "plain": "Large gap (24px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.xl",
+              "type": "dimension",
+              "value": "40px",
+              "plain": "Section gap (40px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.sm",
+              "type": "dimension",
+              "value": "8px",
+              "plain": "Soft corner (8px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.md",
+              "type": "dimension",
+              "value": "14px",
+              "plain": "Input corner (14px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.lg",
+              "type": "dimension",
+              "value": "22px",
+              "plain": "Card corner (22px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.pill",
+              "type": "dimension",
+              "value": "999px",
+              "plain": "Pill button (999px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.family.sans",
+              "type": "fontFamily",
+              "value": "Manrope, sans-serif",
+              "plain": "Display & UI sans",
+              "deprecated": false
+            },
+            {
+              "path": "font.family.mono",
+              "type": "fontFamily",
+              "value": "JetBrains Mono, monospace",
+              "plain": "Token & code mono",
+              "deprecated": false
+            },
+            {
+              "path": "font.size.body",
+              "type": "dimension",
+              "value": "15px",
+              "plain": "Body text (15px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.size.heading",
+              "type": "dimension",
+              "value": "28px",
+              "plain": "Page title (28px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.weight.regular",
+              "type": "fontWeight",
+              "value": "400",
+              "plain": "Regular weight",
+              "deprecated": false
+            },
+            {
+              "path": "font.weight.semibold",
+              "type": "fontWeight",
+              "value": "600",
+              "plain": "Semibold weight",
+              "deprecated": false
+            },
+            {
+              "path": "motion.fast",
+              "type": "duration",
+              "value": "120ms",
+              "plain": "Micro feedback (120ms)",
+              "deprecated": false
+            },
+            {
+              "path": "motion.base",
+              "type": "duration",
+              "value": "220ms",
+              "plain": "Standard transition (220ms)",
+              "deprecated": false
+            }
+          ]
+        }
+      ],
+      "webhooks": [
+        {
+          "id": "wh-1",
+          "name": "Campus GitHub CI / Token Sync Action",
+          "targetUrl": "https://ci.campus-dev.edu.in/hooks/campus-master/tokens",
+          "events": [
+            "release.published",
+            "figma.synced"
+          ],
+          "lastStatus": "200 OK · Verified",
+          "lastTriggeredAt": "2026-10-22T16:31:53.699Z"
+        }
+      ],
+      "auditLogs": [
+        {
+          "id": "383af581-6622-4518-98c4-0862fcfa0dbd",
+          "actor": "Arjun Mehta (Dev)",
+          "action": "Exported Tailwind v4 & Kotlin Compose tokens",
+          "category": "token",
+          "details": "Pulled 42 resolved tokens via /api/v1/tokens?format=tailwind",
+          "timestamp": "2026-10-22T18:17:53.699Z"
+        },
+        {
+          "id": "f8210d6e-a713-48b6-ac5e-b5a7a63b4f8a",
+          "actor": "Priya Nair (Design)",
+          "action": "Updated Brand Navy 700 contrast for WCAG AAA",
+          "category": "token",
+          "details": "color.primitive.navy.700 verified at 10.4:1 contrast ratio",
+          "timestamp": "2026-10-22T17:26:53.699Z"
+        },
+        {
+          "id": "f9f875ce-2ee0-485a-987b-1877cbe00a36",
+          "actor": "Prudhvi Raj (Lead Architect)",
+          "action": "Published release v0.1.0",
+          "category": "release",
+          "details": "Snapshot of 42 W3C DTCG tokens committed",
+          "timestamp": "2026-10-22T06:31:53.699Z"
+        }
+      ]
+    },
+    {
+      "id": "14cd38d7-695a-4550-b8a6-9ba02fab85c8",
+      "slug": "fintech-upi",
+      "name": "PayKaro UPI Student Team",
+      "department": "CSE Batch · Fintech Lab",
+      "ownerName": "Rohan Iyer (Team Lead)",
+      "apiKey": "nxs_live_fintech_upi_3d2e1f0a",
+      "activeContext": "default",
+      "createdAt": "2026-10-21T18:31:53.699Z",
+      "tokens": [
+        {
+          "path": "color.primitive.navy.500",
+          "type": "color",
+          "value": "#4f6596",
+          "plain": "Muted navy 500",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.navy.700",
+          "type": "color",
+          "value": "#1e3a8a",
+          "plain": "Brand navy 700",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.navy.900",
+          "type": "color",
+          "value": "#1e2a4a",
+          "plain": "Deep navy 900",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.100",
+          "type": "color",
+          "value": "#e6edf7",
+          "plain": "Soft sky tint",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.300",
+          "type": "color",
+          "value": "#a9bcdb",
+          "plain": "Light blue 300",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.500",
+          "type": "color",
+          "value": "#3b82f6",
+          "plain": "Interactive blue 500",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.saffron.100",
+          "type": "color",
+          "value": "#ffedd5",
+          "plain": "Festive warm tint",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.saffron.500",
+          "type": "color",
+          "value": "#ea580c",
+          "plain": "Warm saffron accent",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.50",
+          "type": "color",
+          "value": "#f4f6f9",
+          "plain": "Page canvas light",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.200",
+          "type": "color",
+          "value": "#dde3ec",
+          "plain": "Subtle border slate",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.600",
+          "type": "color",
+          "value": "#5b6577",
+          "plain": "Muted body slate",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.900",
+          "type": "color",
+          "value": "#0f172a",
+          "plain": "Main ink dark",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.green.500",
+          "type": "color",
+          "value": "#16a34a",
+          "plain": "Success green (UPI verified)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.amber.500",
+          "type": "color",
+          "value": "#d97706",
+          "plain": "Warning amber (Pending KYC)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.red.500",
+          "type": "color",
+          "value": "#dc2626",
+          "plain": "Danger red (Payment failed)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.pink.400",
+          "type": "color",
+          "value": "#f472b6",
+          "plain": "Old pink (retiring)",
+          "deprecated": true
+        },
+        {
+          "path": "color.semantic.background",
+          "type": "color",
+          "value": "{color.primitive.slate.50}",
+          "description": "App canvas background",
+          "plain": "Page background",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.surface",
+          "type": "color",
+          "value": "#ffffff",
+          "description": "Cards, modals and sheets",
+          "plain": "Card surface",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.text",
+          "type": "color",
+          "value": "{color.primitive.slate.900}",
+          "description": "Primary readable body copy",
+          "plain": "Main text",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.text-muted",
+          "type": "color",
+          "value": "{color.primitive.slate.600}",
+          "description": "Secondary helper labels",
+          "plain": "Muted text",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.primary",
+          "type": "color",
+          "value": "{color.primitive.navy.700}",
+          "description": "Primary actions & UPI Pay buttons",
+          "plain": "Main brand colour",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.accent",
+          "type": "color",
+          "value": "{color.primitive.saffron.500}",
+          "description": "Festive highlights & callouts",
+          "plain": "Warm accent",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.success",
+          "type": "color",
+          "value": "{color.primitive.green.500}",
+          "description": "Confirmation & instant settlement",
+          "plain": "Success green",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.warning",
+          "type": "color",
+          "value": "{color.primitive.amber.500}",
+          "description": "Caution & pending verification",
+          "plain": "Warning amber",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.danger",
+          "type": "color",
+          "value": "{color.primitive.red.500}",
+          "description": "Destructive actions & low-balance alerts",
+          "plain": "Error red",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.xs",
+          "type": "dimension",
+          "value": "4px",
+          "plain": "Tight gap (4px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.sm",
+          "type": "dimension",
+          "value": "8px",
+          "plain": "Small gap (8px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.md",
+          "type": "dimension",
+          "value": "16px",
+          "plain": "Normal gap (16px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.lg",
+          "type": "dimension",
+          "value": "24px",
+          "plain": "Large gap (24px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.xl",
+          "type": "dimension",
+          "value": "40px",
+          "plain": "Section gap (40px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.sm",
+          "type": "dimension",
+          "value": "8px",
+          "plain": "Soft corner (8px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.md",
+          "type": "dimension",
+          "value": "14px",
+          "plain": "Input corner (14px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.lg",
+          "type": "dimension",
+          "value": "22px",
+          "plain": "Card corner (22px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.pill",
+          "type": "dimension",
+          "value": "999px",
+          "plain": "Pill button (999px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.family.sans",
+          "type": "fontFamily",
+          "value": "Manrope, sans-serif",
+          "plain": "Display & UI sans",
+          "deprecated": false
+        },
+        {
+          "path": "font.family.mono",
+          "type": "fontFamily",
+          "value": "JetBrains Mono, monospace",
+          "plain": "Token & code mono",
+          "deprecated": false
+        },
+        {
+          "path": "font.size.body",
+          "type": "dimension",
+          "value": "15px",
+          "plain": "Body text (15px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.size.heading",
+          "type": "dimension",
+          "value": "28px",
+          "plain": "Page title (28px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.weight.regular",
+          "type": "fontWeight",
+          "value": "400",
+          "plain": "Regular weight",
+          "deprecated": false
+        },
+        {
+          "path": "font.weight.semibold",
+          "type": "fontWeight",
+          "value": "600",
+          "plain": "Semibold weight",
+          "deprecated": false
+        },
+        {
+          "path": "motion.fast",
+          "type": "duration",
+          "value": "120ms",
+          "plain": "Micro feedback (120ms)",
+          "deprecated": false
+        },
+        {
+          "path": "motion.base",
+          "type": "duration",
+          "value": "220ms",
+          "plain": "Standard transition (220ms)",
+          "deprecated": false
+        }
+      ],
+      "contexts": [
+        {
+          "id": "default",
+          "name": "Default Light (India Standard)",
+          "description": "High-contrast daylight theme tuned for outdoor readability and UPI flows.",
+          "badge": "Base",
+          "overrides": {}
+        },
+        {
+          "id": "dark",
+          "name": "AMOLED Dark Mode (Power Saver)",
+          "description": "Battery-saving dark surfaces designed for Indian summers and low-light usage.",
+          "badge": "Theme",
+          "overrides": {
+            "color.semantic.background": "#0b0f19",
+            "color.semantic.surface": "#131b2e",
+            "color.semantic.text": "#f8fafc",
+            "color.semantic.text-muted": "#94a3b8",
+            "color.semantic.primary": "{color.primitive.blue.500}"
+          }
+        },
+        {
+          "id": "diwali",
+          "name": "Diwali Festive Edition",
+          "description": "One-line context switch replacing primary actions with festive saffron & warm ivory.",
+          "badge": "Seasonal",
+          "overrides": {
+            "color.semantic.background": "#fffaf5",
+            "color.semantic.surface": "#ffffff",
+            "color.semantic.primary": "{color.primitive.saffron.500}",
+            "color.semantic.accent": "{color.primitive.navy.700}"
+          }
+        },
+        {
+          "id": "bhasha",
+          "name": "Multilingual / Indic Tall Script",
+          "description": "Expanded type scale & spacing for Devanagari, Tamil, and Telugu script rendering.",
+          "badge": "Indic",
+          "overrides": {
+            "font.size.body": "17px",
+            "font.size.heading": "30px",
+            "spacing.md": "18px",
+            "spacing.lg": "28px"
+          }
+        }
+      ],
+      "components": [
+        {
+          "id": "button",
+          "name": "Button (UPI Pay Action)",
+          "status": "stable",
+          "version": "2.4.0",
+          "a11y": "AA · 44px touch target",
+          "description": "Primary and secondary actions used for checkout, UPI confirmation, and form submits.",
+          "tokens": [
+            "color.semantic.primary",
+            "color.semantic.surface",
+            "radius.pill",
+            "spacing.md"
+          ],
+          "codeSnippet": "<button className=\"bg-[var(--color-semantic-primary)] text-white rounded-[var(--radius-pill)] px-[var(--spacing-lg)] py-[var(--spacing-sm)] font-semibold\">Pay ₹250</button>"
+        },
+        {
+          "id": "card",
+          "name": "Card (Order & Balance Tile)",
+          "status": "stable",
+          "version": "2.1.0",
+          "a11y": "AA · Semantic region",
+          "description": "Surface container for grouped content, transaction summaries, and student project metrics.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.semantic.text",
+            "radius.lg",
+            "spacing.lg"
+          ],
+          "codeSnippet": "<section className=\"bg-[var(--color-semantic-surface)] text-[var(--color-semantic-text)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)] border\">...</section>"
+        },
+        {
+          "id": "badge",
+          "name": "Status Badge",
+          "status": "stable",
+          "version": "1.3.0",
+          "a11y": "AA · Text + Icon",
+          "description": "Compact status indicator paired with explicit text labels for color-blind safety.",
+          "tokens": [
+            "color.semantic.success",
+            "radius.pill",
+            "spacing.xs"
+          ],
+          "codeSnippet": "<span className=\"text-[var(--color-semantic-success)] px-[var(--spacing-sm)] py-[var(--spacing-xs)] text-xs font-semibold\">Verified · Instant</span>"
+        },
+        {
+          "id": "input",
+          "name": "Input (+91 Phone & VPA)",
+          "status": "stable",
+          "version": "2.0.0",
+          "a11y": "AA · Label bound",
+          "description": "Single-line text field with clear focus ring, prefix support (+91), and validation state.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.primitive.slate.200",
+            "radius.md",
+            "spacing.sm"
+          ],
+          "codeSnippet": "<input className=\"bg-[var(--color-semantic-surface)] rounded-[var(--radius-md)] px-[var(--spacing-md)] py-[var(--spacing-sm)] border\" placeholder=\"+91 98765 43210\" />"
+        },
+        {
+          "id": "alert",
+          "name": "Banner / Low-Balance Alert",
+          "status": "stable",
+          "version": "1.4.0",
+          "a11y": "AA · role=alert",
+          "description": "Contextual feedback message for warnings, KYC reminders, or payment confirmation.",
+          "tokens": [
+            "color.semantic.warning",
+            "color.semantic.surface",
+            "radius.md",
+            "spacing.md"
+          ],
+          "codeSnippet": "<div role=\"alert\" className=\"rounded-[var(--radius-md)] p-[var(--spacing-md)] border\">Low balance — add ₹500 to continue.</div>"
+        },
+        {
+          "id": "modal",
+          "name": "Confirmation Dialog",
+          "status": "beta",
+          "version": "0.9.0",
+          "a11y": "Focus trap · Esc closes",
+          "description": "Accessible modal sheet for approving token releases, Figma sync diffs, or high-value actions.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.semantic.primary",
+            "radius.lg",
+            "spacing.lg"
+          ],
+          "codeSnippet": "<dialog className=\"bg-[var(--color-semantic-surface)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)]\">...</dialog>"
+        }
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-22T06:31:53.699Z",
+          "author": "Rohan Iyer (Team Lead)",
+          "note": "Initial W3C DTCG foundation & Indian product semantic tokens",
+          "tokenCount": 42,
+          "changes": {
+            "added": 42,
+            "changed": 0,
+            "removed": 0
+          },
+          "snapshot": [
+            {
+              "path": "color.primitive.navy.500",
+              "type": "color",
+              "value": "#4f6596",
+              "plain": "Muted navy 500",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.navy.700",
+              "type": "color",
+              "value": "#1e3a8a",
+              "plain": "Brand navy 700",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.navy.900",
+              "type": "color",
+              "value": "#1e2a4a",
+              "plain": "Deep navy 900",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.100",
+              "type": "color",
+              "value": "#e6edf7",
+              "plain": "Soft sky tint",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.300",
+              "type": "color",
+              "value": "#a9bcdb",
+              "plain": "Light blue 300",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.500",
+              "type": "color",
+              "value": "#3b82f6",
+              "plain": "Interactive blue 500",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.saffron.100",
+              "type": "color",
+              "value": "#ffedd5",
+              "plain": "Festive warm tint",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.saffron.500",
+              "type": "color",
+              "value": "#ea580c",
+              "plain": "Warm saffron accent",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.50",
+              "type": "color",
+              "value": "#f4f6f9",
+              "plain": "Page canvas light",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.200",
+              "type": "color",
+              "value": "#dde3ec",
+              "plain": "Subtle border slate",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.600",
+              "type": "color",
+              "value": "#5b6577",
+              "plain": "Muted body slate",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.900",
+              "type": "color",
+              "value": "#0f172a",
+              "plain": "Main ink dark",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.green.500",
+              "type": "color",
+              "value": "#16a34a",
+              "plain": "Success green (UPI verified)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.amber.500",
+              "type": "color",
+              "value": "#d97706",
+              "plain": "Warning amber (Pending KYC)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.red.500",
+              "type": "color",
+              "value": "#dc2626",
+              "plain": "Danger red (Payment failed)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.pink.400",
+              "type": "color",
+              "value": "#f472b6",
+              "plain": "Old pink (retiring)",
+              "deprecated": true
+            },
+            {
+              "path": "color.semantic.background",
+              "type": "color",
+              "value": "{color.primitive.slate.50}",
+              "description": "App canvas background",
+              "plain": "Page background",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.surface",
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Cards, modals and sheets",
+              "plain": "Card surface",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.text",
+              "type": "color",
+              "value": "{color.primitive.slate.900}",
+              "description": "Primary readable body copy",
+              "plain": "Main text",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.text-muted",
+              "type": "color",
+              "value": "{color.primitive.slate.600}",
+              "description": "Secondary helper labels",
+              "plain": "Muted text",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.primary",
+              "type": "color",
+              "value": "{color.primitive.navy.700}",
+              "description": "Primary actions & UPI Pay buttons",
+              "plain": "Main brand colour",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.accent",
+              "type": "color",
+              "value": "{color.primitive.saffron.500}",
+              "description": "Festive highlights & callouts",
+              "plain": "Warm accent",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.success",
+              "type": "color",
+              "value": "{color.primitive.green.500}",
+              "description": "Confirmation & instant settlement",
+              "plain": "Success green",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.warning",
+              "type": "color",
+              "value": "{color.primitive.amber.500}",
+              "description": "Caution & pending verification",
+              "plain": "Warning amber",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.danger",
+              "type": "color",
+              "value": "{color.primitive.red.500}",
+              "description": "Destructive actions & low-balance alerts",
+              "plain": "Error red",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.xs",
+              "type": "dimension",
+              "value": "4px",
+              "plain": "Tight gap (4px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.sm",
+              "type": "dimension",
+              "value": "8px",
+              "plain": "Small gap (8px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.md",
+              "type": "dimension",
+              "value": "16px",
+              "plain": "Normal gap (16px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.lg",
+              "type": "dimension",
+              "value": "24px",
+              "plain": "Large gap (24px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.xl",
+              "type": "dimension",
+              "value": "40px",
+              "plain": "Section gap (40px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.sm",
+              "type": "dimension",
+              "value": "8px",
+              "plain": "Soft corner (8px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.md",
+              "type": "dimension",
+              "value": "14px",
+              "plain": "Input corner (14px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.lg",
+              "type": "dimension",
+              "value": "22px",
+              "plain": "Card corner (22px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.pill",
+              "type": "dimension",
+              "value": "999px",
+              "plain": "Pill button (999px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.family.sans",
+              "type": "fontFamily",
+              "value": "Manrope, sans-serif",
+              "plain": "Display & UI sans",
+              "deprecated": false
+            },
+            {
+              "path": "font.family.mono",
+              "type": "fontFamily",
+              "value": "JetBrains Mono, monospace",
+              "plain": "Token & code mono",
+              "deprecated": false
+            },
+            {
+              "path": "font.size.body",
+              "type": "dimension",
+              "value": "15px",
+              "plain": "Body text (15px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.size.heading",
+              "type": "dimension",
+              "value": "28px",
+              "plain": "Page title (28px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.weight.regular",
+              "type": "fontWeight",
+              "value": "400",
+              "plain": "Regular weight",
+              "deprecated": false
+            },
+            {
+              "path": "font.weight.semibold",
+              "type": "fontWeight",
+              "value": "600",
+              "plain": "Semibold weight",
+              "deprecated": false
+            },
+            {
+              "path": "motion.fast",
+              "type": "duration",
+              "value": "120ms",
+              "plain": "Micro feedback (120ms)",
+              "deprecated": false
+            },
+            {
+              "path": "motion.base",
+              "type": "duration",
+              "value": "220ms",
+              "plain": "Standard transition (220ms)",
+              "deprecated": false
+            }
+          ]
+        }
+      ],
+      "webhooks": [
+        {
+          "id": "wh-1",
+          "name": "Campus GitHub CI / Token Sync Action",
+          "targetUrl": "https://ci.campus-dev.edu.in/hooks/fintech-upi/tokens",
+          "events": [
+            "release.published",
+            "figma.synced"
+          ],
+          "lastStatus": "200 OK · Verified",
+          "lastTriggeredAt": "2026-10-22T16:31:53.699Z"
+        }
+      ],
+      "auditLogs": [
+        {
+          "id": "790f1c3a-864b-46b0-b857-803ad83fc8dd",
+          "actor": "Arjun Mehta (Dev)",
+          "action": "Exported Tailwind v4 & Kotlin Compose tokens",
+          "category": "token",
+          "details": "Pulled 42 resolved tokens via /api/v1/tokens?format=tailwind",
+          "timestamp": "2026-10-22T18:17:53.699Z"
+        },
+        {
+          "id": "494a7355-d37c-485f-b484-b9c878b35acf",
+          "actor": "Priya Nair (Design)",
+          "action": "Updated Brand Navy 700 contrast for WCAG AAA",
+          "category": "token",
+          "details": "color.primitive.navy.700 verified at 10.4:1 contrast ratio",
+          "timestamp": "2026-10-22T17:26:53.699Z"
+        },
+        {
+          "id": "55b49ac7-4831-439b-8447-1911a7401699",
+          "actor": "Rohan Iyer (Team Lead)",
+          "action": "Published release v0.1.0",
+          "category": "release",
+          "details": "Snapshot of 42 W3C DTCG tokens committed",
+          "timestamp": "2026-10-22T06:31:53.699Z"
+        }
+      ]
+    },
+    {
+      "id": "8c3016c4-7678-45b0-b461-7a95131df6a1",
+      "slug": "edtech-bharat",
+      "name": "Seekho Multilingual EdTech",
+      "department": "AI & HCI Research Group",
+      "ownerName": "Meera Krishnan (Product Lead)",
+      "apiKey": "nxs_live_edtech_bharat_7c6b5a4d",
+      "activeContext": "bhasha",
+      "createdAt": "2026-10-21T18:31:53.699Z",
+      "tokens": [
+        {
+          "path": "color.primitive.navy.500",
+          "type": "color",
+          "value": "#4f6596",
+          "plain": "Muted navy 500",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.navy.700",
+          "type": "color",
+          "value": "#1e3a8a",
+          "plain": "Brand navy 700",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.navy.900",
+          "type": "color",
+          "value": "#1e2a4a",
+          "plain": "Deep navy 900",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.100",
+          "type": "color",
+          "value": "#e6edf7",
+          "plain": "Soft sky tint",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.300",
+          "type": "color",
+          "value": "#a9bcdb",
+          "plain": "Light blue 300",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.blue.500",
+          "type": "color",
+          "value": "#3b82f6",
+          "plain": "Interactive blue 500",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.saffron.100",
+          "type": "color",
+          "value": "#ffedd5",
+          "plain": "Festive warm tint",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.saffron.500",
+          "type": "color",
+          "value": "#ea580c",
+          "plain": "Warm saffron accent",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.50",
+          "type": "color",
+          "value": "#f4f6f9",
+          "plain": "Page canvas light",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.200",
+          "type": "color",
+          "value": "#dde3ec",
+          "plain": "Subtle border slate",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.600",
+          "type": "color",
+          "value": "#5b6577",
+          "plain": "Muted body slate",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.slate.900",
+          "type": "color",
+          "value": "#0f172a",
+          "plain": "Main ink dark",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.green.500",
+          "type": "color",
+          "value": "#16a34a",
+          "plain": "Success green (UPI verified)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.amber.500",
+          "type": "color",
+          "value": "#d97706",
+          "plain": "Warning amber (Pending KYC)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.red.500",
+          "type": "color",
+          "value": "#dc2626",
+          "plain": "Danger red (Payment failed)",
+          "deprecated": false
+        },
+        {
+          "path": "color.primitive.pink.400",
+          "type": "color",
+          "value": "#f472b6",
+          "plain": "Old pink (retiring)",
+          "deprecated": true
+        },
+        {
+          "path": "color.semantic.background",
+          "type": "color",
+          "value": "{color.primitive.slate.50}",
+          "description": "App canvas background",
+          "plain": "Page background",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.surface",
+          "type": "color",
+          "value": "#ffffff",
+          "description": "Cards, modals and sheets",
+          "plain": "Card surface",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.text",
+          "type": "color",
+          "value": "{color.primitive.slate.900}",
+          "description": "Primary readable body copy",
+          "plain": "Main text",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.text-muted",
+          "type": "color",
+          "value": "{color.primitive.slate.600}",
+          "description": "Secondary helper labels",
+          "plain": "Muted text",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.primary",
+          "type": "color",
+          "value": "{color.primitive.navy.700}",
+          "description": "Primary actions & UPI Pay buttons",
+          "plain": "Main brand colour",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.accent",
+          "type": "color",
+          "value": "{color.primitive.saffron.500}",
+          "description": "Festive highlights & callouts",
+          "plain": "Warm accent",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.success",
+          "type": "color",
+          "value": "{color.primitive.green.500}",
+          "description": "Confirmation & instant settlement",
+          "plain": "Success green",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.warning",
+          "type": "color",
+          "value": "{color.primitive.amber.500}",
+          "description": "Caution & pending verification",
+          "plain": "Warning amber",
+          "deprecated": false
+        },
+        {
+          "path": "color.semantic.danger",
+          "type": "color",
+          "value": "{color.primitive.red.500}",
+          "description": "Destructive actions & low-balance alerts",
+          "plain": "Error red",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.xs",
+          "type": "dimension",
+          "value": "4px",
+          "plain": "Tight gap (4px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.sm",
+          "type": "dimension",
+          "value": "8px",
+          "plain": "Small gap (8px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.md",
+          "type": "dimension",
+          "value": "16px",
+          "plain": "Normal gap (16px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.lg",
+          "type": "dimension",
+          "value": "24px",
+          "plain": "Large gap (24px)",
+          "deprecated": false
+        },
+        {
+          "path": "spacing.xl",
+          "type": "dimension",
+          "value": "40px",
+          "plain": "Section gap (40px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.sm",
+          "type": "dimension",
+          "value": "8px",
+          "plain": "Soft corner (8px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.md",
+          "type": "dimension",
+          "value": "14px",
+          "plain": "Input corner (14px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.lg",
+          "type": "dimension",
+          "value": "22px",
+          "plain": "Card corner (22px)",
+          "deprecated": false
+        },
+        {
+          "path": "radius.pill",
+          "type": "dimension",
+          "value": "999px",
+          "plain": "Pill button (999px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.family.sans",
+          "type": "fontFamily",
+          "value": "Manrope, sans-serif",
+          "plain": "Display & UI sans",
+          "deprecated": false
+        },
+        {
+          "path": "font.family.mono",
+          "type": "fontFamily",
+          "value": "JetBrains Mono, monospace",
+          "plain": "Token & code mono",
+          "deprecated": false
+        },
+        {
+          "path": "font.size.body",
+          "type": "dimension",
+          "value": "15px",
+          "plain": "Body text (15px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.size.heading",
+          "type": "dimension",
+          "value": "28px",
+          "plain": "Page title (28px)",
+          "deprecated": false
+        },
+        {
+          "path": "font.weight.regular",
+          "type": "fontWeight",
+          "value": "400",
+          "plain": "Regular weight",
+          "deprecated": false
+        },
+        {
+          "path": "font.weight.semibold",
+          "type": "fontWeight",
+          "value": "600",
+          "plain": "Semibold weight",
+          "deprecated": false
+        },
+        {
+          "path": "motion.fast",
+          "type": "duration",
+          "value": "120ms",
+          "plain": "Micro feedback (120ms)",
+          "deprecated": false
+        },
+        {
+          "path": "motion.base",
+          "type": "duration",
+          "value": "220ms",
+          "plain": "Standard transition (220ms)",
+          "deprecated": false
+        }
+      ],
+      "contexts": [
+        {
+          "id": "default",
+          "name": "Default Light (India Standard)",
+          "description": "High-contrast daylight theme tuned for outdoor readability and UPI flows.",
+          "badge": "Base",
+          "overrides": {}
+        },
+        {
+          "id": "dark",
+          "name": "AMOLED Dark Mode (Power Saver)",
+          "description": "Battery-saving dark surfaces designed for Indian summers and low-light usage.",
+          "badge": "Theme",
+          "overrides": {
+            "color.semantic.background": "#0b0f19",
+            "color.semantic.surface": "#131b2e",
+            "color.semantic.text": "#f8fafc",
+            "color.semantic.text-muted": "#94a3b8",
+            "color.semantic.primary": "{color.primitive.blue.500}"
+          }
+        },
+        {
+          "id": "diwali",
+          "name": "Diwali Festive Edition",
+          "description": "One-line context switch replacing primary actions with festive saffron & warm ivory.",
+          "badge": "Seasonal",
+          "overrides": {
+            "color.semantic.background": "#fffaf5",
+            "color.semantic.surface": "#ffffff",
+            "color.semantic.primary": "{color.primitive.saffron.500}",
+            "color.semantic.accent": "{color.primitive.navy.700}"
+          }
+        },
+        {
+          "id": "bhasha",
+          "name": "Multilingual / Indic Tall Script",
+          "description": "Expanded type scale & spacing for Devanagari, Tamil, and Telugu script rendering.",
+          "badge": "Indic",
+          "overrides": {
+            "font.size.body": "17px",
+            "font.size.heading": "30px",
+            "spacing.md": "18px",
+            "spacing.lg": "28px"
+          }
+        }
+      ],
+      "components": [
+        {
+          "id": "button",
+          "name": "Button (UPI Pay Action)",
+          "status": "stable",
+          "version": "2.4.0",
+          "a11y": "AA · 44px touch target",
+          "description": "Primary and secondary actions used for checkout, UPI confirmation, and form submits.",
+          "tokens": [
+            "color.semantic.primary",
+            "color.semantic.surface",
+            "radius.pill",
+            "spacing.md"
+          ],
+          "codeSnippet": "<button className=\"bg-[var(--color-semantic-primary)] text-white rounded-[var(--radius-pill)] px-[var(--spacing-lg)] py-[var(--spacing-sm)] font-semibold\">Pay ₹250</button>"
+        },
+        {
+          "id": "card",
+          "name": "Card (Order & Balance Tile)",
+          "status": "stable",
+          "version": "2.1.0",
+          "a11y": "AA · Semantic region",
+          "description": "Surface container for grouped content, transaction summaries, and student project metrics.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.semantic.text",
+            "radius.lg",
+            "spacing.lg"
+          ],
+          "codeSnippet": "<section className=\"bg-[var(--color-semantic-surface)] text-[var(--color-semantic-text)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)] border\">...</section>"
+        },
+        {
+          "id": "badge",
+          "name": "Status Badge",
+          "status": "stable",
+          "version": "1.3.0",
+          "a11y": "AA · Text + Icon",
+          "description": "Compact status indicator paired with explicit text labels for color-blind safety.",
+          "tokens": [
+            "color.semantic.success",
+            "radius.pill",
+            "spacing.xs"
+          ],
+          "codeSnippet": "<span className=\"text-[var(--color-semantic-success)] px-[var(--spacing-sm)] py-[var(--spacing-xs)] text-xs font-semibold\">Verified · Instant</span>"
+        },
+        {
+          "id": "input",
+          "name": "Input (+91 Phone & VPA)",
+          "status": "stable",
+          "version": "2.0.0",
+          "a11y": "AA · Label bound",
+          "description": "Single-line text field with clear focus ring, prefix support (+91), and validation state.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.primitive.slate.200",
+            "radius.md",
+            "spacing.sm"
+          ],
+          "codeSnippet": "<input className=\"bg-[var(--color-semantic-surface)] rounded-[var(--radius-md)] px-[var(--spacing-md)] py-[var(--spacing-sm)] border\" placeholder=\"+91 98765 43210\" />"
+        },
+        {
+          "id": "alert",
+          "name": "Banner / Low-Balance Alert",
+          "status": "stable",
+          "version": "1.4.0",
+          "a11y": "AA · role=alert",
+          "description": "Contextual feedback message for warnings, KYC reminders, or payment confirmation.",
+          "tokens": [
+            "color.semantic.warning",
+            "color.semantic.surface",
+            "radius.md",
+            "spacing.md"
+          ],
+          "codeSnippet": "<div role=\"alert\" className=\"rounded-[var(--radius-md)] p-[var(--spacing-md)] border\">Low balance — add ₹500 to continue.</div>"
+        },
+        {
+          "id": "modal",
+          "name": "Confirmation Dialog",
+          "status": "beta",
+          "version": "0.9.0",
+          "a11y": "Focus trap · Esc closes",
+          "description": "Accessible modal sheet for approving token releases, Figma sync diffs, or high-value actions.",
+          "tokens": [
+            "color.semantic.surface",
+            "color.semantic.primary",
+            "radius.lg",
+            "spacing.lg"
+          ],
+          "codeSnippet": "<dialog className=\"bg-[var(--color-semantic-surface)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)]\">...</dialog>"
+        }
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-22T06:31:53.699Z",
+          "author": "Meera Krishnan (Product Lead)",
+          "note": "Initial W3C DTCG foundation & Indian product semantic tokens",
+          "tokenCount": 42,
+          "changes": {
+            "added": 42,
+            "changed": 0,
+            "removed": 0
+          },
+          "snapshot": [
+            {
+              "path": "color.primitive.navy.500",
+              "type": "color",
+              "value": "#4f6596",
+              "plain": "Muted navy 500",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.navy.700",
+              "type": "color",
+              "value": "#1e3a8a",
+              "plain": "Brand navy 700",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.navy.900",
+              "type": "color",
+              "value": "#1e2a4a",
+              "plain": "Deep navy 900",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.100",
+              "type": "color",
+              "value": "#e6edf7",
+              "plain": "Soft sky tint",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.300",
+              "type": "color",
+              "value": "#a9bcdb",
+              "plain": "Light blue 300",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.blue.500",
+              "type": "color",
+              "value": "#3b82f6",
+              "plain": "Interactive blue 500",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.saffron.100",
+              "type": "color",
+              "value": "#ffedd5",
+              "plain": "Festive warm tint",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.saffron.500",
+              "type": "color",
+              "value": "#ea580c",
+              "plain": "Warm saffron accent",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.50",
+              "type": "color",
+              "value": "#f4f6f9",
+              "plain": "Page canvas light",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.200",
+              "type": "color",
+              "value": "#dde3ec",
+              "plain": "Subtle border slate",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.600",
+              "type": "color",
+              "value": "#5b6577",
+              "plain": "Muted body slate",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.slate.900",
+              "type": "color",
+              "value": "#0f172a",
+              "plain": "Main ink dark",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.green.500",
+              "type": "color",
+              "value": "#16a34a",
+              "plain": "Success green (UPI verified)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.amber.500",
+              "type": "color",
+              "value": "#d97706",
+              "plain": "Warning amber (Pending KYC)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.red.500",
+              "type": "color",
+              "value": "#dc2626",
+              "plain": "Danger red (Payment failed)",
+              "deprecated": false
+            },
+            {
+              "path": "color.primitive.pink.400",
+              "type": "color",
+              "value": "#f472b6",
+              "plain": "Old pink (retiring)",
+              "deprecated": true
+            },
+            {
+              "path": "color.semantic.background",
+              "type": "color",
+              "value": "{color.primitive.slate.50}",
+              "description": "App canvas background",
+              "plain": "Page background",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.surface",
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Cards, modals and sheets",
+              "plain": "Card surface",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.text",
+              "type": "color",
+              "value": "{color.primitive.slate.900}",
+              "description": "Primary readable body copy",
+              "plain": "Main text",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.text-muted",
+              "type": "color",
+              "value": "{color.primitive.slate.600}",
+              "description": "Secondary helper labels",
+              "plain": "Muted text",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.primary",
+              "type": "color",
+              "value": "{color.primitive.navy.700}",
+              "description": "Primary actions & UPI Pay buttons",
+              "plain": "Main brand colour",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.accent",
+              "type": "color",
+              "value": "{color.primitive.saffron.500}",
+              "description": "Festive highlights & callouts",
+              "plain": "Warm accent",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.success",
+              "type": "color",
+              "value": "{color.primitive.green.500}",
+              "description": "Confirmation & instant settlement",
+              "plain": "Success green",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.warning",
+              "type": "color",
+              "value": "{color.primitive.amber.500}",
+              "description": "Caution & pending verification",
+              "plain": "Warning amber",
+              "deprecated": false
+            },
+            {
+              "path": "color.semantic.danger",
+              "type": "color",
+              "value": "{color.primitive.red.500}",
+              "description": "Destructive actions & low-balance alerts",
+              "plain": "Error red",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.xs",
+              "type": "dimension",
+              "value": "4px",
+              "plain": "Tight gap (4px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.sm",
+              "type": "dimension",
+              "value": "8px",
+              "plain": "Small gap (8px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.md",
+              "type": "dimension",
+              "value": "16px",
+              "plain": "Normal gap (16px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.lg",
+              "type": "dimension",
+              "value": "24px",
+              "plain": "Large gap (24px)",
+              "deprecated": false
+            },
+            {
+              "path": "spacing.xl",
+              "type": "dimension",
+              "value": "40px",
+              "plain": "Section gap (40px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.sm",
+              "type": "dimension",
+              "value": "8px",
+              "plain": "Soft corner (8px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.md",
+              "type": "dimension",
+              "value": "14px",
+              "plain": "Input corner (14px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.lg",
+              "type": "dimension",
+              "value": "22px",
+              "plain": "Card corner (22px)",
+              "deprecated": false
+            },
+            {
+              "path": "radius.pill",
+              "type": "dimension",
+              "value": "999px",
+              "plain": "Pill button (999px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.family.sans",
+              "type": "fontFamily",
+              "value": "Manrope, sans-serif",
+              "plain": "Display & UI sans",
+              "deprecated": false
+            },
+            {
+              "path": "font.family.mono",
+              "type": "fontFamily",
+              "value": "JetBrains Mono, monospace",
+              "plain": "Token & code mono",
+              "deprecated": false
+            },
+            {
+              "path": "font.size.body",
+              "type": "dimension",
+              "value": "15px",
+              "plain": "Body text (15px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.size.heading",
+              "type": "dimension",
+              "value": "28px",
+              "plain": "Page title (28px)",
+              "deprecated": false
+            },
+            {
+              "path": "font.weight.regular",
+              "type": "fontWeight",
+              "value": "400",
+              "plain": "Regular weight",
+              "deprecated": false
+            },
+            {
+              "path": "font.weight.semibold",
+              "type": "fontWeight",
+              "value": "600",
+              "plain": "Semibold weight",
+              "deprecated": false
+            },
+            {
+              "path": "motion.fast",
+              "type": "duration",
+              "value": "120ms",
+              "plain": "Micro feedback (120ms)",
+              "deprecated": false
+            },
+            {
+              "path": "motion.base",
+              "type": "duration",
+              "value": "220ms",
+              "plain": "Standard transition (220ms)",
+              "deprecated": false
+            }
+          ]
+        }
+      ],
+      "webhooks": [
+        {
+          "id": "wh-1",
+          "name": "Campus GitHub CI / Token Sync Action",
+          "targetUrl": "https://ci.campus-dev.edu.in/hooks/edtech-bharat/tokens",
+          "events": [
+            "release.published",
+            "figma.synced"
+          ],
+          "lastStatus": "200 OK · Verified",
+          "lastTriggeredAt": "2026-10-22T16:31:53.699Z"
+        }
+      ],
+      "auditLogs": [
+        {
+          "id": "797cfe31-f9be-44de-bd28-f38e589af936",
+          "actor": "Arjun Mehta (Dev)",
+          "action": "Exported Tailwind v4 & Kotlin Compose tokens",
+          "category": "token",
+          "details": "Pulled 42 resolved tokens via /api/v1/tokens?format=tailwind",
+          "timestamp": "2026-10-22T18:17:53.699Z"
+        },
+        {
+          "id": "6ce243c9-4c92-4cc8-90c2-67a5708da3a6",
+          "actor": "Priya Nair (Design)",
+          "action": "Updated Brand Navy 700 contrast for WCAG AAA",
+          "category": "token",
+          "details": "color.primitive.navy.700 verified at 10.4:1 contrast ratio",
+          "timestamp": "2026-10-22T17:26:53.699Z"
+        },
+        {
+          "id": "a487c5f7-5f54-450c-b321-061e5df9d240",
+          "actor": "Meera Krishnan (Product Lead)",
+          "action": "Published release v0.1.0",
+          "category": "release",
+          "details": "Snapshot of 42 W3C DTCG tokens committed",
+          "timestamp": "2026-10-22T06:31:53.699Z"
+        }
+      ]
+    }
+  ]
+}
